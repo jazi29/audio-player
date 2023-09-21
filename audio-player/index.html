@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +21,29 @@
                     You Spin Me Round
                 </p>
             </div>
-            <div class="controls">
-                <img src="ico/play.png" class="play">
-                <img src="ico/pause.png" class="pause">
-                <img src="ico/rewind.png" class="rewind">
-                <img src="ico/forward.png" class="forward">
-                <input type="range" name="range" id="range-audio">
+            <div class="control-content">
+                <div class="controls">
+                    <div class="audio-control">
+                        <img src="ico/rewind.png" class="rewind">
+                        <!-- <img src="ico/play.png" class="play"> -->
+                        <img src="ico/pause.png" class="pause">
+                        <img src="ico/forward.png" class="forward">
+                    </div>
+                    <input type="range" name="range" id="range-audio" min="0" value="0">
+                    <div class="currentTime"></div>
+                    <div class="durationTime"></div>
+                </div>
+                <div class="footer">
+                    <a href="https://github.com/jazi29" target="_blank">
+                        <img src="ico/github.svg" alt="github" class="github">
+                    </a>
+                    <p>2023</p>
+                    <a href="https://rs.school/js-stage0/" target="_blank">
+                        <img src="ico/rs_school.svg" alt="rs_school">
+                    </div>
             </div>
             
+            </div>
         </div>
         <!-- <div class="music-block second">
             <img src="img/rick.png" alt="dead" class="image">
@@ -47,7 +63,6 @@
             Rhythm Is a Dancer
         </p>
         </div> -->
-        
     </div>
     <!-- <audio src="audio/never.mp3">never</audio>
     <audio src="audio/rhythm.mp3">rhythm</audio>
