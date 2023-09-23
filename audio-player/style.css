@@ -196,9 +196,6 @@ a img:hover{
   transition: 0.3s;
 }
 
-.first{
-  /* display: none; */
-}
 .second{
   display: none;
 }
@@ -206,16 +203,13 @@ a img:hover{
   display: none;
 }
 
-#background-first{
-  /* display: none; */
-}
 #background-second{
   display: none;
 }
 #background-third{
   display: none;
 }
-#pause{
+#pause_first ,#pause_second, #pause_third{
   display: none;
 }
 .audio-control img{
