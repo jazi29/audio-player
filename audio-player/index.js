@@ -10,19 +10,19 @@ const prevButton = document.getElementById('rewind_first');
 
 const musicBlocks = [
     {
-        imageSrc: 'img/dead.png',
+        imageSrc: 'img/spin.png',
         artistName: 'Dead or Alive',
         songName: 'You Spin Me Round',
         audioSrc: 'audio/spin.mp3',
     },
     {
-        imageSrc: 'img/rick.png',
+        imageSrc: 'img/never.png',
         artistName: 'Rick Astley',
         songName: 'Never Gonna Give You Up',
         audioSrc: 'audio/never.mp3',
     },
     {
-        imageSrc: 'img/snap.png',
+        imageSrc: 'img/rhytmn.png',
         artistName: 'SNAP!',
         songName: 'Rhythm is A Dancer',
         audioSrc: 'audio/rhythm.mp3',
